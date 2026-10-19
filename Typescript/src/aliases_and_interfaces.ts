@@ -47,3 +47,16 @@ const border_collie: Dog = {
 };
 
 //Example of interface merging and extending
+
+
+/* random kiến thức về type alias và interface
+
+dù 2 thằng này nó có vẻ giống và có thể thay thế nhau trong một số trường hợp nhma có một số điểm khác biệt cần lưu ý:
+- trong khi interface dùng chủ yếu cho object shapes và function/method signatures, type alias có thể dùng cho bất kỳ kiểu dữ liệu nào, kể cả primitive types, union types, tuple types, v.v.
+ví dụ như cái này: 
+// Type làm được nhưng Interface KHÔNG làm được:
+type StringOrNumber = string | number;
+type Coordinates = [x: number, y: number];
+
+
+*/
